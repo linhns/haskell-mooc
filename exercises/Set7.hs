@@ -191,10 +191,6 @@ instance (Eq a, Ord a) => Monoid (Set a) where
 
 data Operation1 = Add1 Int Int
                 | Subtract1 Int Int
-  deriving Show
-
-data Operation1 = Add1 Int Int
-                | Subtract1 Int Int
                 | Multiply1 Int Int
   deriving Show
 
